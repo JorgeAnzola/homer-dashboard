@@ -34,3 +34,4 @@ Most of them from [NX221's repo](https://github.com/NX211/homer-icons).
 ## Roadmap
 - Get Sonarr and Radarr working. Probably [#254](https://github.com/bastienwirtz/homer/pull/254) this is merge.
 - Get `Ping` service type working
+- Experiment with themes
