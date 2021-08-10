@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body #app .card {
+  margin: 0 0 10px;
+  border-radius: 5px;
+}
+
+.is-dark .card:hover {
+  background-color: #393939 !important;
+}
+
+.is-light .card:hover {
+  background-color: #f8f8f8 !important;
+}
+
+.is-dark .footer-link {
+  color: #fefefe;
+}
+
+.is-dark .footer-link:hover {
+  text-decoration: underline;
+  color: #fefefe!important;
+}
+
+.is-light .footer-link {
+  color: #1b1b1b;
+}
+
+.is-light .footer-link:hover {
+  text-decoration: underline;
+  color: #1b1b1b!important;
+}
