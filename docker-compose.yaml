@@ -10,3 +10,16 @@ services:
           - ~/homer/assets:/www/assets
         ports:
           - 80:8080
+
+    homer_development:
+        image: node:10-alpine
+        container_name: homer_development
+        working_dir: /www/assets
+        environment:
+          - UID=1000
+          - GID=1000
+        volumes:
+          - ~/homer/assets:/www/assets
+        expose:
+          - 80
+        command: sh -c 'yarn install  && yarn serve'
